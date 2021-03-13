@@ -1,8 +1,7 @@
 ---
-id_rsa_file: "/root/.ssh/id_rsa"
-passphrase: "changeit"
-root_password: "password"
+id_rsa_file: "/root/.ssh/id_rsa.pub"
+passphrase: ""
+root_password: "redhat"
 nodes:
-  - 1.2.3.4
-  - 5.6.7.8
-  - 9.10.11.12
+  - 172.31.0.183
+  - 172.31.14.178
